@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-confetti": "^6.4.0",
+    "react-dom": "^19.0.0",
+    "tenzies-game": "file:"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
