@@ -88,12 +88,13 @@ button.game-interaction {
   white-space: nowrap;
   width: auto;
   padding: 6px 21px;
-  background-color: #5035FF;
+  /* background-color: #5035FF; */
   border: none;
   border-radius: 6px;
   color: white;
   font-weight: bold;
   font-size: 1.2rem;
+  margin-top: -10px;
 }
 
 button.start {
@@ -118,4 +119,40 @@ button.new-game {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+@media (max-width: 450px) {
+
+  div#root {
+    height: 100%;
+    width: 100%;
+    max-height: 350px;
+    max-width: 350px;
+  }
+
+  h1.title {
+    font-size: 36px;
+  }
+
+  .completed-time {
+    font-size: 1rem;
+  }
+  
+  .timer, .roll-count {
+    font-size: 1.2rem;
+  }
+  
+  .instructions {
+    font-size: 0.9rem;
+  }
+
+  .dice-container button {
+    height: 45px;
+    width: 45px;
+  }
+
+  button.game-interaction {
+    font-size: 1rem;
+    margin-top: -20px;
+  }
 }
