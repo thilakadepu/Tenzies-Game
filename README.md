@@ -51,7 +51,7 @@ npm run dev
 ---
 
 ## 🙋‍♂️ Author
-Made with ❤️ Thilak
+Created by Thilak
 
 If you like this project, feel free to ⭐ the repo and connect!
 If you have any suggestions or improvements, feel free to **fork** the repo and open a **pull request**.
